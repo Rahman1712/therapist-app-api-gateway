@@ -1,10 +1,11 @@
 server:
   port: 8989
-  ssl:
-    key-alias: spring-https
-    key-store: classpath:artechie.jks
-    key-store-type: JKS
-    key-password: password
+#  ssl:
+#    enabled: true
+#    key-alias: spring-https
+#    key-store: classpath:artechie.jks
+#    key-store-type: JKS
+#    key-store-password: password
 spring:
   application:
     name: GATEWAY-SERVICE
